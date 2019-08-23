@@ -26,10 +26,6 @@ First of all create a virtual environment by using command or anaconda (if insta
 
 + 4.(djangoenv)Muhammads-MacBook-Pro:projectFolderName muhammadabdullahalmamun$django-admin startproject projectName
 
-#### want a superuser for this project and app like (admin)
-
--(djangoenv)Muhammads-MacBook-Pro:projectFolderName muhammadabdullahalmamun$ python manage.py createsuperuser
-
 #### if i using an app for the project then using this command
 
 + 5.(djangoenv)Muhammads-MacBook-Pro:Desktop muhammadabdullahalmamun$ python manage.py startapp appName
@@ -40,9 +36,15 @@ First of all create a virtual environment by using command or anaconda (if insta
 
 + 7.(djangoenv)Muhammads-MacBook-Pro:projectFolderName muhammadabdullahalmamun$ python manage.py migrate
 
+#### want a superuser for this project and app like (admin)
+
+-(djangoenv)Muhammads-MacBook-Pro:projectFolderName muhammadabdullahalmamun$ python manage.py createsuperuser
 
 #### For running the server
 
 + 8.(djangoenv)Muhammads-MacBook-Pro:projectFolderName muhammadabdullahalmamun$ python manage.py runserver
 
 ```
+#### Access this server from outside put ip: into ALLOWED_HOSTS = ['192.168.0.105', 'localhost', '127.0.0.1'] like this
+
+
