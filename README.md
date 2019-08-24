@@ -1,8 +1,6 @@
-
-```diff
-
 ## Django Rest Api
 
+```diff
 
 ### Environment setup 
 
